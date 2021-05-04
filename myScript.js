@@ -1,5 +1,4 @@
-
-//q2 inner loop function to add number of symbols starting on left side
+//inner loop function to add number of symbols starting on left side
 function printLine(symbol, shapeSize) {
     let shape = "";
     let i = 0;
@@ -14,7 +13,7 @@ function printLine(symbol, shapeSize) {
     return shape;
   }
   
-  //q2 inner loop function to add spaces on left, and symbols on the right
+  //inner loop function to add spaces on left, and symbols on the right
   function printEmpties(w, x, y, z) {
     let shape = "";
     let symbol = w;
@@ -44,7 +43,7 @@ function printLine(symbol, shapeSize) {
     return shape;
   }
   
-  //q2 function that contains logic for outer loop
+  //function that contains logic for outer loop
   function displayShape() {
     let shapeSize = document.myform.shapeSize.value;
     while (shapeSize % 1 != 0) {
